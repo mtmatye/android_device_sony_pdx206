@@ -194,5 +194,5 @@ BOARD_AVB_VBMETA_SYSTEM_ROLLBACK_INDEX := $(PLATFORM_SECURITY_PATCH_TIMESTAMP)
 BOARD_AVB_VBMETA_SYSTEM_ROLLBACK_INDEX_LOCATION := 1
 
 # Inherit from the proprietary version
--include vendor/sony/pdx206/BoardConfigVendor.mk
--include vendor/rr/config/BoardConfigLineage.mk
+include vendor/sony/pdx206/BoardConfigVendor.mk
+include vendor/rr/config/BoardConfigLineage.mk
